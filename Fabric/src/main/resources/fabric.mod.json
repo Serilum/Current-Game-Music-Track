@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "currentgamemusictrack",
-  "version": "1.2",
+  "version": "1.3",
 
   "name": "Current Game Music Track",
   "description": "Shows the title of the game music track that's currently playing when it starts in the GUI.",
   "authors": [ "Rick South" ],
   "contact": {
-    "homepage": "https://curseforge.com/minecraft/mc-mods/current-game-music-track",
-    "sources": "https://github.com/ricksouth/serilum-mc-mod-sources/tree/main/sources/Current%20Game%20Music%20Track",
-    "issues": "https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Current%20Game%20Music%20Track"
+    "homepage": "https://serilum.com/mod/current-game-music-track",
+    "sources": "https://github.com/Serilum/Current-Game-Music-Track",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Current%20Game%20Music%20Track"
   },
 
   "license": "All Right Reserved",
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=7.13"
+    "collective": ">=7.21"
   },
 
   "custom": {
