@@ -1,4 +1,4 @@
-package com.natamus.currentgamemusictrack.neoforge.mixin;
+package com.natamus.currentgamemusictrack.mixin;
 
 import com.natamus.currentgamemusictrack.data.Variables;
 import com.natamus.currentgamemusictrack.util.Util;
