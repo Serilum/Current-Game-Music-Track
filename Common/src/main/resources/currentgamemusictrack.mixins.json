@@ -1,17 +1,16 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.currentgamemusictrack.forge.mixin",
+  "package": "com.natamus.currentgamemusictrack.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "currentgamemusictrack_forge.refmap.json",
   "mixins": [
   ],
   "client": [
-	"MusicManagerMixin"
+    "MusicManagerMixin"
   ],
   "server": [
   ],
   "injectors": {
-	"defaultRequire": 1
+    "defaultRequire": 1
   }
 }
