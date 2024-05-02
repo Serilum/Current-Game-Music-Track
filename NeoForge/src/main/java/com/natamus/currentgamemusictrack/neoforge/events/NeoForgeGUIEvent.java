@@ -10,7 +10,7 @@ import net.neoforged.neoforge.client.event.ClientTickEvent;
 @EventBusSubscriber(value = Dist.CLIENT)
 public class NeoForgeGUIEvent {
 	@SubscribeEvent
-	public static void onClientTick(ClientTickEvent e) {
+	public static void onClientTick(ClientTickEvent.Post e) {
 		GUIEvent.onClientTick(Constants.mc.level);
 	}
 }

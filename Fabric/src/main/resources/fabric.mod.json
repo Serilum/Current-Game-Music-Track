@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "currentgamemusictrack",
-  "version": "1.5",
+  "version": "1.6",
 
   "name": "Current Game Music Track",
   "description": "Shows the title of the game music track that's currently playing when it starts in the GUI.",

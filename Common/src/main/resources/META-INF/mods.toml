@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="currentgamemusictrack"
-version="1.5"
+version="1.6"
 displayName="Current Game Music Track"
 displayURL="https://serilum.com/mod/current-game-music-track"
 authors="Rick South"

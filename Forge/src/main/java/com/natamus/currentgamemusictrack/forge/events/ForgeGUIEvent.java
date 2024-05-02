@@ -11,6 +11,10 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 public class ForgeGUIEvent {
 	@SubscribeEvent
 	public void onClientTick(TickEvent.ClientTickEvent e) {
+		if (!e.phase.equals(TickEvent.Phase.END)) {
+			return;
+		}
+
 		GUIEvent.onClientTick(Constants.mc.level);
 	}
 }
