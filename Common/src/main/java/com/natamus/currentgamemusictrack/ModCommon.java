@@ -1,6 +1,7 @@
 package com.natamus.currentgamemusictrack;
 
 import com.natamus.collective.globalcallbacks.CollectiveGuiCallback;
+import com.natamus.collective.services.Services;
 import com.natamus.currentgamemusictrack.config.ConfigHandler;
 import com.natamus.currentgamemusictrack.events.GUIEvent;
 
@@ -12,8 +13,10 @@ public class ModCommon {
 	}
 
 	private static void load() {
-		CollectiveGuiCallback.ON_GUI_RENDER.register(((guiGraphics, tickDelta) -> {
-			GUIEvent.renderOverlay(guiGraphics, tickDelta);
-		}));
+		if (Services.MODLOADER.isClientSide()) {
+			CollectiveGuiCallback.ON_GUI_RENDER.register(((guiGraphics, tickDelta) -> {
+				GUIEvent.renderOverlay(guiGraphics, tickDelta);
+			}));
+		}
 	}
 }
