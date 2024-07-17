@@ -13,7 +13,7 @@ public class Util {
 		}
 
 		String musicPath = musicResourceLocation.getPath();
-		String[] mpspl = musicPath.split("\\.");
+		String[] mpspl = musicPath.split("/");
 
 		String rawName = mpspl[mpspl.length-1];
 		String name = rawName.replace("_", " ");
