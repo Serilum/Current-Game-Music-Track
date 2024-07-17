@@ -18,7 +18,7 @@ public class MusicManagerMixin {
 	@Inject(method = "tick()V", at = @At(value = "HEAD"))
 	public void tick(CallbackInfo ci) {
 		if (currentMusic != null) {
-			ResourceLocation currentMusicRl = currentMusic.getLocation();
+			ResourceLocation currentMusicRl = currentMusic.getSound().getLocation();
 			if (currentMusicRl != Variables.lastMusicResourceLocation) {
 				Util.displaySongTitle(currentMusic, currentMusicRl);
 			}
