@@ -2,6 +2,7 @@ package com.natamus.currentgamemusictrack.mixin;
 
 import com.natamus.currentgamemusictrack.data.Variables;
 import com.natamus.currentgamemusictrack.util.Util;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.MusicManager;
 import net.minecraft.resources.ResourceLocation;
@@ -18,9 +19,12 @@ public class MusicManagerMixin {
 	@Inject(method = "tick()V", at = @At(value = "HEAD"))
 	public void tick(CallbackInfo ci) {
 		if (currentMusic != null) {
-			ResourceLocation currentMusicRl = currentMusic.getSound().getLocation();
-			if (currentMusicRl != Variables.lastMusicResourceLocation) {
-				Util.displaySongTitle(currentMusic, currentMusicRl);
+			Sound sound = currentMusic.getSound();
+			if (sound != null) {
+				ResourceLocation currentMusicRl = sound.getLocation();
+				if (currentMusicRl != Variables.lastMusicResourceLocation) {
+					Util.displaySongTitle(currentMusic, currentMusicRl);
+				}
 			}
 		}
 		else if (Variables.lastMusicResourceLocation != null) {
