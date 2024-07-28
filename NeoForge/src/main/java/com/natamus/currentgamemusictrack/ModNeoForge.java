@@ -1,6 +1,7 @@
 package com.natamus.currentgamemusictrack;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.currentgamemusictrack.neoforge.config.IntegrateNeoForgeConfig;
 import com.natamus.currentgamemusictrack.neoforge.events.NeoForgeGUIEvent;
 import com.natamus.currentgamemusictrack.util.Reference;
@@ -16,6 +17,10 @@ import net.neoforged.fml.loading.FMLEnvironment;
 public class ModNeoForge {
 	
 	public ModNeoForge(IEventBus modEventBus) {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		modEventBus.addListener(this::loadComplete);
 
 		setGlobalConstants();

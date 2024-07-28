@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="currentgamemusictrack"
-version="2.1"
+version="2.2"
 displayName="Current Game Music Track"
 displayURL="https://serilum.com/mod/current-game-music-track"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.currentgamemusictrack]]
     modId="collective"
     type="required"
-    versionRange="[7.74,)"
+    versionRange="[7.78,)"
     ordering="NONE"
     side="BOTH"
 
