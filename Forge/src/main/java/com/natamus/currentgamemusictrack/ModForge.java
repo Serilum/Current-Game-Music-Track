@@ -1,6 +1,7 @@
 package com.natamus.currentgamemusictrack;
 
 import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.currentgamemusictrack.forge.config.IntegrateForgeConfig;
 import com.natamus.currentgamemusictrack.forge.events.ForgeGUIEvent;
 import com.natamus.currentgamemusictrack.util.Reference;
@@ -17,6 +18,10 @@ import net.minecraftforge.fml.loading.FMLEnvironment;
 public class ModForge {
 	
 	public ModForge() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		modEventBus.addListener(this::loadComplete);
 
