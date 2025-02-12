@@ -7,17 +7,15 @@ import net.minecraftforge.client.event.RenderGuiOverlayEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
-@EventBusSubscriber(value = Dist.CLIENT)
 public class ForgeGUIEvent {
 	@SubscribeEvent(priority = EventPriority.NORMAL)
-	public void renderOverlay(RenderGuiOverlayEvent.Post e) {
+	public static void renderOverlay(RenderGuiOverlayEvent.Post e) {
 		GUIEvent.renderOverlay(e.getGuiGraphics(), e.getPartialTick());
 	}
 
 	@SubscribeEvent
-	public void onClientTick(TickEvent.ClientTickEvent e) {
+	public static void onClientTick(TickEvent.ClientTickEvent e) {
 		if (!e.phase.equals(TickEvent.Phase.END)) {
 			return;
 		}
