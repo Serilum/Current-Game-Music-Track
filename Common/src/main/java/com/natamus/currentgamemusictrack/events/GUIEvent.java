@@ -2,6 +2,7 @@ package com.natamus.currentgamemusictrack.events;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.natamus.collective.functions.GUIFunctions;
 import com.natamus.currentgamemusictrack.config.ConfigHandler;
 import com.natamus.currentgamemusictrack.data.Constants;
 import com.natamus.currentgamemusictrack.data.Variables;
@@ -15,7 +16,7 @@ import java.awt.*;
 
 public class GUIEvent {
 	public static void renderOverlay(GuiGraphics guiGraphics, float tickDelta) {
-		if (Constants.mc.options.renderDebug) {
+		if (GUIFunctions.shouldHideGUI()) {
 			return;
 		}
 
