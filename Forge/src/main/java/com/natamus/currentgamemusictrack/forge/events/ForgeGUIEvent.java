@@ -2,7 +2,6 @@ package com.natamus.currentgamemusictrack.forge.events;
 
 import com.natamus.currentgamemusictrack.data.Constants;
 import com.natamus.currentgamemusictrack.events.GUIEvent;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
