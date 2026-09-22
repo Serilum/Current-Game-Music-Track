@@ -1,5 +1,5 @@
 <h2>Current Game Music Track</h2>
-<p><a href="https://github.com/Serilum/Current-Game-Music-Track"><img src="https://serilum.com/assets/images/logo/current-game-music-track.gif"></a></p><h2>Download</h2>
+<p><a href="https://github.com/Serilum/Current-Game-Music-Track"><img src="https://workflow.serilum.com/web/logo/128/current-game-music-track.gif" width="100" height="100"></a></p><h2>Download</h2>
 <p>You can download Current Game Music Track on CurseForge and Modrinth:</p><p>&nbsp;&nbsp;CurseForge: &nbsp;&nbsp;<a href="https://curseforge.com/minecraft/mc-mods/current-game-music-track">https://curseforge.com/minecraft/mc-mods/current-game-music-track</a><br>&nbsp;&nbsp;Modrinth: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://modrinth.com/mod/current-game-music-track">https://modrinth.com/mod/current-game-music-track</a></p>
 <h2>Issue Tracker</h2>
 <p>To keep a better overview of all mods, the issue tracker is located in a separate repository.<br>&nbsp;&nbsp;For issues, ideas, suggestions or anything else, please follow this link:</p>
