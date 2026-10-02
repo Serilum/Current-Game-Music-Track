@@ -1,8 +1,7 @@
-package com.natamus.currentgamemusictrack.forge.events;
+package com.serilum.currentgamemusictrack.forge.events;
 
-import com.natamus.currentgamemusictrack.data.Constants;
-import com.natamus.currentgamemusictrack.events.GUIEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import com.serilum.currentgamemusictrack.data.Constants;
+import com.serilum.currentgamemusictrack.events.GUIEvent;
 import net.minecraftforge.client.event.RenderGuiOverlayEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.EventPriority;

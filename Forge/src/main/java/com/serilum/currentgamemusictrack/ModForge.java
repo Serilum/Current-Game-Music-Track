@@ -1,10 +1,10 @@
-package com.natamus.currentgamemusictrack;
+package com.serilum.currentgamemusictrack;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.currentgamemusictrack.forge.config.IntegrateForgeConfig;
-import com.natamus.currentgamemusictrack.forge.events.ForgeGUIEvent;
-import com.natamus.currentgamemusictrack.util.Reference;
+import com.serilum.currentgamemusictrack.forge.config.IntegrateForgeConfig;
+import com.serilum.currentgamemusictrack.forge.events.ForgeGUIEvent;
+import com.serilum.currentgamemusictrack.util.Reference;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

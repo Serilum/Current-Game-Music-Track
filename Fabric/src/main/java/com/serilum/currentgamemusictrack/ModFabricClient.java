@@ -1,8 +1,8 @@
-package com.natamus.currentgamemusictrack;
+package com.serilum.currentgamemusictrack;
 
-import com.natamus.currentgamemusictrack.events.GUIEvent;
+import com.serilum.currentgamemusictrack.events.GUIEvent;
 import net.fabricmc.api.ClientModInitializer;
-import com.natamus.currentgamemusictrack.util.Reference;
+import com.serilum.currentgamemusictrack.util.Reference;
 import com.natamus.collective.check.ShouldLoadCheck;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;

@@ -1,7 +1,7 @@
-package com.natamus.currentgamemusictrack.mixin;
+package com.serilum.currentgamemusictrack.mixin;
 
-import com.natamus.currentgamemusictrack.data.Variables;
-import com.natamus.currentgamemusictrack.util.Util;
+import com.serilum.currentgamemusictrack.data.Variables;
+import com.serilum.currentgamemusictrack.util.Util;
 import net.minecraft.client.resources.sounds.SoundInstance;
 import net.minecraft.client.sounds.MusicManager;
 import net.minecraft.resources.ResourceLocation;

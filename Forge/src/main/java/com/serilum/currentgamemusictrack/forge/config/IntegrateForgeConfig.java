@@ -1,7 +1,7 @@
-package com.natamus.currentgamemusictrack.forge.config;
+package com.serilum.currentgamemusictrack.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.currentgamemusictrack.util.Reference;
+import com.serilum.currentgamemusictrack.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 

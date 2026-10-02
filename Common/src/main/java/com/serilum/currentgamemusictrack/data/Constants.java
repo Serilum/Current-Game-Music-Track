@@ -1,4 +1,4 @@
-package com.natamus.currentgamemusictrack.data;
+package com.serilum.currentgamemusictrack.data;
 
 import net.minecraft.client.Minecraft;
 

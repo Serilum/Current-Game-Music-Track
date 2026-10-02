@@ -1,6 +1,6 @@
-package com.natamus.currentgamemusictrack;
+package com.serilum.currentgamemusictrack;
 
-import com.natamus.currentgamemusictrack.config.ConfigHandler;
+import com.serilum.currentgamemusictrack.config.ConfigHandler;
 
 public class ModCommon {
 

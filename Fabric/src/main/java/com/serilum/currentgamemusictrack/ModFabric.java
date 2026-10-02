@@ -1,8 +1,8 @@
-package com.natamus.currentgamemusictrack;
+package com.serilum.currentgamemusictrack;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.currentgamemusictrack.util.Reference;
+import com.serilum.currentgamemusictrack.util.Reference;
 import net.fabricmc.api.ModInitializer;
 
 public class ModFabric implements ModInitializer {

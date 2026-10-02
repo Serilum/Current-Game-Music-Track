@@ -1,7 +1,7 @@
-package com.natamus.currentgamemusictrack.fabric.config;
+package com.serilum.currentgamemusictrack.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.currentgamemusictrack.util.Reference;
+import com.serilum.currentgamemusictrack.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

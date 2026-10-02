@@ -1,12 +1,12 @@
-package com.natamus.currentgamemusictrack.events;
+package com.serilum.currentgamemusictrack.events;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.natamus.collective.functions.GUIFunctions;
-import com.natamus.currentgamemusictrack.config.ConfigHandler;
-import com.natamus.currentgamemusictrack.data.Constants;
-import com.natamus.currentgamemusictrack.data.Variables;
-import com.natamus.currentgamemusictrack.util.Util;
+import com.serilum.currentgamemusictrack.config.ConfigHandler;
+import com.serilum.currentgamemusictrack.data.Constants;
+import com.serilum.currentgamemusictrack.data.Variables;
+import com.serilum.currentgamemusictrack.util.Util;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.multiplayer.ClientLevel;
