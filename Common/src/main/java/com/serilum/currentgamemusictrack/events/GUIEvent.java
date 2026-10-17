@@ -2,6 +2,7 @@ package com.serilum.currentgamemusictrack.events;
 
 import com.mojang.blaze3d.platform.Window;
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.natamus.collective.functions.ColourFunctions;
 import com.natamus.collective.functions.GUIFunctions;
 import com.serilum.currentgamemusictrack.config.ConfigHandler;
 import com.serilum.currentgamemusictrack.data.Constants;
@@ -46,15 +47,16 @@ public class GUIEvent {
 			Variables.guiOpacity = 255;
 		}
 
-		Color colour = new Color(ConfigHandler.RGB_R, ConfigHandler.RGB_G, ConfigHandler.RGB_B, Variables.guiOpacity);
+		int rgb = ColourFunctions.getRgbColour(ConfigHandler.RGB);
+		Color colour = new Color((rgb >> 16) & 255, (rgb >> 8) & 255, rgb & 255, Variables.guiOpacity);
 
 		int titleStringWidth = font.width(musicGUIString);
 
 		int titleXCoord = 0;
-		if (ConfigHandler.musicGUIPositionIsLeft) {
+		if (ConfigHandler.musicGUIPosition.equals("Left")) {
 			titleXCoord = 5;
 		}
-		else if (ConfigHandler.musicGUIPositionIsCenter) {
+		else if (ConfigHandler.musicGUIPosition.equals("Center")) {
 			titleXCoord = (width/2) - (titleStringWidth/2);
 		}
 		else {
